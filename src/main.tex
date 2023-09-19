@@ -1,45 +1,26 @@
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv}
 
 % moderncv themes
-\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\nopagenumbers{}
 
 \usepackage[utf8]{inputenc}
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
-\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\setlength{\hintscolumnwidth}{3cm}
 
 % personal data
 \name{Francesco}{Dal Canton}
 \phone[mobile]{+31~65~040~7596}
 \email{fr.dalcanton@gmail.com}
 \homepage{github.com/frank}
-%\photo[64pt][0.4pt]{picture}
-% optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
 \newcommand\vspacing{0.4}
 
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
 \makecvtitle
-
-% I'm a Data Scientist and Machine Learning Engineer with experience in Artificial Intelligence for medical applications, Computer Vision, Time Series Analysis, and Natural Language Processing. I'm familiar both with research and with the industry, and my focus is on applying my expertise to solve meaningful societal challenges.
 
 I am an artificial Intelligence MSc graduate with experience in working with Deep Learning, Computer Vision, and Time Series Analysis in the medical domain.
 
@@ -47,7 +28,7 @@ I am an artificial Intelligence MSc graduate with experience in working with Dee
 
 \section{Experience}
 
-\cventry{11.2021\,--\,Present}{Deep Learning Researcher}{Medis Medical Imaging}{}{}{Research and development role aimed at improving automated analysis of cardiovascular medical images for clinical applications.}
+\cventry{11.2021\,--\,Present}{Deep Learning Researcher}{Medis Medical Imaging}{}{}{My role focused on researching and developing production-ready computer vision algorithms (Deep Learning-based and otherwise) for echocardiography workflow automation, along with infrastructure development and maintenance.}
 
 \cventry{05.2021\,--\,07.2021}{Artificial Intelligence Analyst}{The Netherlands Cancer Institute}{}{}{Research role aimed at continuing and improving the work of my Master's thesis.}
 
@@ -55,14 +36,7 @@ I am an artificial Intelligence MSc graduate with experience in working with Dee
 
 \cventry{06.2019}{Research Intern}{KPN}{}{}{Research role involving Natural Language Processing and Data Mining, aimed at investigating new product directions at KPN in collaboration with the University of Amsterdam.}
 
-\cventry{03.2018\,--\,06.2018}{Teaching Assistant}{University of Groningen}{}{}{Held tutorials and designed and graded assignment for the BSc Neural Networks course at the University of Groningen.
-% Main responsibilities:
-% \begin{itemize}
-%     \item Re-designing assignments and improving course organisation
-%     \item Giving weekly course tutorials and answering students' questions
-%     \item Grading assignments
-% \end{itemize}
-}
+\cventry{03.2018\,--\,06.2018}{Teaching Assistant}{University of Groningen}{}{}{Held tutorials and designed and graded assignment for the BSc Neural Networks course at the University of Groningen.}
 
 \cventry{03.2018\,--\,08.2018}{Research Intern}{Universitair Medisch Centrum Groningen}{}{}{Research role aimed at analysing data for my Bachelor's thesis}
 
@@ -70,47 +44,20 @@ I am an artificial Intelligence MSc graduate with experience in working with Dee
 
 \section{Education}
 \cventry{2018\,--\,2021}{MSc in Artificial Intelligence (Cum Laude)}{University of Amsterdam}{Amsterdam (NL)}{Grade average: 8.2/10}
-{An abstract of my thesis on \emph{Multiple-Instance Learning for Assessing Prognosis of Ductal Carcinoma In Situ} was accepted for an oral presentation at the European Congress of Pathology of 2021.}
+{An abstract of my thesis on \emph{Multiple-Instance Learning for Assessing Prognosis of Ductal Carcinoma In Situ} was accepted for an oral presentation at the European Congress of Pathology of 2021, and follow-up research based on my work was published at SPIE (\url{https://doi.org/10.1117/12.2612838}).}
 \vskip 0.1in
 \cventry{2015\,--\,2018}{BSc in Artificial Intelligence (Honours in Philosophy)}{University of Groningen}{Groningen (NL)}{Grade average: 8/10}
-{A paper resulting from my thesis on \emph{Early Detection of Sepsis Induced Deterioration Using Machine Learning} was published in the proceedings of the BENELEARN2018 conference (\url{https://doi.org/10.1007/978-3-030-31978-6_1}).
-% \begin{itemize}
-%     \item Program with a focus on data science, machine learning, robotics, and cognitive psychology
-%     \item Chose to join Honours in Philosophy programme upon invitation, thanks to academic results being in the top 10 percentile of first-year students across the University
-% \end{itemize}
-}
+{A paper resulting from my thesis on \emph{Early Detection of Sepsis Induced Deterioration Using Machine Learning} was published in the proceedings of the BENELEARN2018 conference (\url{https://doi.org/10.1007/978-3-030-31978-6_1}).}
 \vskip 0.1in
 \cventry{2010\,--\,2015}{Diploma di Maturità Classica}{Liceo Classico "G. Marconi"}{Conegliano (IT)}{Grade: 83/100}
-{%\begin{itemize}
-    %\item Program with a focus on history and philosophy, ancient Latin and Greek, mathematics, and physics among other subjects
-    % \item Acted as class president for two years
-%\end{itemize}
-}
 
 \vskip \vspacing in
 
-% \section{Master Thesis}
-% \cvitem{title}{\emph{Multiple-Instance Learning for Assessing Prognosis of Ductal Carcinoma In Situ}}
-% \cvitem{supervisors}{Efstratios Gavves, Jonas Teuwen}
-% \cvitem{description}{\small{Used gigapixel histopathology slides collected from patients affected by Ductal Carcinoma In Situ (DCIS), and developed a Multiple-Instance Learning-based model for predicting 10-year recurrence of ipsilateral Invasive Breast Cancer (iIBC).}}
-% \cvitem{publication}{Submitted an abstract for this work at the European Congress of Pathology of 2021, and was accepted for an oral presentation.}
-
-% \vskip \vspacing in
-
-% \section{Bachelor Thesis}
-% \cvitem{title}{\emph{Early Detection of Sepsis Induced Deterioration Using Machine Learning}}
-% \cvitem{supervisors}{Marco Wiering, Vincent M. Quinten}
-% \cvitem{description}{\small{Performed time series analysis on ECG, blood oxygenation level, and respiratory rate signals gathered from patients in their first 48 hours in the hospital. Developed machine learning models to predict organ failure or death caused by Sepsis, an excessive reaction to infection.}}
-% \cvitem{publication}{The resulting paper was published in the proceedings of the BENELEARN2018 conference (\url{https://doi.org/10.1007/978-3-030-31978-6_1})}
-
-% \vskip \vspacing in
-% \newpage
-
 \section{Skills}
-\cvitem{Operating Systems}{Experienced user of both Windows and Linux-based operating systems and their standard software}{}
-\cvitem{Programming Languages}{Fluent in Python. Familiar with Java, C, Matlab. Basic knowledge of R, SQL, Prolog}
-\cvitem{Notable Python APIs}{Experienced with PyTorch, Scikit-learn, Pandas, Tensorboard, OpenSlide.}
-\cvitem{Miscellanea}{Proficient with Git, Docker, Singularity, Linux shell, Latex, High Performance Computing}
+\cvitem{Operating Systems}{Experienced user of both Windows and Linux-based operating systems and standard software}{}
+\cvitem{Programming Languages}{Proficient with Python. Basic knowledge of Java, C, Matlab, R, SQL, Prolog}
+\cvitem{Notable Python APIs}{Proficient with PyTorch, PyTorch Lightning, Scikit-learn, Pandas, Tensorboard, OpenSlide, gRPC, H5PY}
+\cvitem{Miscellanea}{Proficient with Git, Linux shell, Latex. Familiar with Docker, Singularity.}
 
 \vskip \vspacing in
 
@@ -126,37 +73,13 @@ I am an artificial Intelligence MSc graduate with experience in working with Dee
 \cvitem{Public Speaking}{Strong presentation skills}
 
 \vskip \vspacing in
-% \newpage
-%
-% \section{Interests}
-% \cvitem{Music}{Played bass guitar in several bands since age 12. \newline Took classical guitar lessons for 7 years, and bass guitar lessons for 5 years}
-% \cvitem{Electronics}{Independently assembled and tested high voltage electronic circuits}
-% \cvitem{Sports}{Passionate about sailing and martial arts}
-% \cvitem{Others}{Passionate about metaphysics and philosophy of mind, psychology, late 20$^{th}$ century science fiction, absurdism}
-%
-% \vskip \vspacing in
 
 \section{Extras}
 \cvitem{Driving License}{Italian A1 and B}
 
-% \vskip \vspacing in
-% \section{Reference}
-% \cventry{}{dr. Marco Wiering}{Assistant professor with tenure track for Associate professor}{University of Groningen}{}{Available on request}
 
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
 \nocite{*}
 \bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+\bibliography{publications}
 
 \end{document}
