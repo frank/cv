@@ -202,13 +202,16 @@
 		#4 % Entry description text
 	}\\\\}
 
-% Command to output a separator slash between lists, e.g. '  /  '
-\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+% Command to output a separator slash between lists
+\newcommand{\slashsep}{\hspace{1.5mm}/\hspace{1.5mm}}
 
-% Command to output a separator dot between lists, e.g. '  .  '
+% Command to output a spaced separator slash between lists
+\newcommand{\slashsepb}{\hspace{3mm}/\hspace{3mm}}
+
+% Command to output a separator dot between lists
 \newcommand*\dotsep{\hspace{1.5mm}$\mathpalette\dotsep@{.4}$\hspace{1.5mm}}
 \newcommand*\dotsep@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
 
-% Command to output a separator dot between lists, e.g. '  .  '
+% Command to output a spaced separator dot between lists
 \newcommand*\dotsepb{\hspace{3mm}$\mathpalette\dotsepb@{.4}$\hspace{3mm}}
 \newcommand*\dotsepb@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
