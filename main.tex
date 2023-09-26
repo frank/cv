@@ -1,4 +1,7 @@
 \documentclass[9pt]{developercv}
+
+
+
 \begin{document}
 
 % HEADER
@@ -7,8 +10,6 @@
     \vspace{-\baselineskip}
     \colorbox{black}{{\fontsize{26}{0}\textcolor{white}{\textbf{\MakeUppercase{Francesco}}}}}\\    
     \colorbox{black}{{\fontsize{26}{0}\textcolor{white}{\textbf{\MakeUppercase{Dal Canton}}}}}\\
-    \vspace{1pt}\\
-    {\huge Machine Learning Researcher}
 \end{minipage}
 \begin{minipage}[t]{0.27\textwidth}
     \vspace{-\baselineskip}
@@ -23,31 +24,36 @@
     \icon{GraduationCap}{12}{\href{https://scholar.google.com/citations?user=m8xUHiMAAAAJ}{tinyurl.com/fdalcanton-pubs}}\\
 \end{minipage}
 
-\vspace{0.2cm}
+\vspace{1.5cm}
 
 % INTRODUCTION
 
-\cvsect{Who Am I?}
-
-\begin{minipage}[t]{0.4\textwidth}
+\begin{minipage}[t]{0.45\textwidth}
     \vspace{-\baselineskip}
+    \cvsect{Who Am I?}\\
     I am an Artificial Intelligence MSc graduate with experience in working with Deep Learning, Computer Vision, and Time Series Analysis in the medical domain.
     
     My goal is to help you apply machine learning solutions to important problems, and to know when that is the right choice.
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.5\textwidth}
-\vspace{-\baselineskip}
-    \begin{barchart}{5.5}
-        \baritem{Python}{100}
-        \baritem{Git}{90}
-        \baritem{Pytorch}{80}
-        \baritem{Pandas}{80}
-        \baritem{Scikit-Learn}{60}
-        \baritem{Slurm}{50}
-        \baritem{Docker}{30}
-    \end{barchart}
+\begin{minipage}[t]{0.45\textwidth}
+    \vspace{-\baselineskip}
+    \cvsect{Skills}\\
+    \texttt{Pytorch (Lightning)}\dotsep\texttt{Tensorboard}\dotsep\texttt{Slurm}\dotsep\texttt{Pandas}\dotsep\texttt{scikit-learn}\dotsep\texttt{pytest}\dotsep\texttt{gRPC}\dotsep\texttt{H5PY}\dotsep\texttt{OpenSlide}\dotsep\texttt{Docker}\dotsep\texttt{Singularity}
 \end{minipage}
+
+\vspace{.5cm}
+
+% \begin{minipage}[t]{0.5\textwidth}
+% \vspace{-\baselineskip}
+%     \begin{barchart}{5.5}
+%         \baritem{Pytorch}{80}
+%         \baritem{Pandas}{80}
+%         \baritem{Scikit-Learn}{60}
+%         \baritem{Slurm}{50}
+%         \baritem{Docker}{30}
+%     \end{barchart}
+% \end{minipage}
 
 % EXPERIENCE
 
@@ -59,25 +65,25 @@
     {Deep Learning Researcher}
     {Medis Medical Imaging}
     {I researched, developed, and validated production-ready computer vision algorithms (Deep Learning-based and otherwise) for echocardiography workflow automation, and maintained and developed inference and evaluation infrastructure.\\
-    \texttt{Python}\slashsep\texttt{Git}\slashsep\texttt{Pytorch}\slashsep\texttt{Slurm}\slashsep\texttt{scikit-learn}\slashsep\texttt{gRPC}}
+    \texttt{Pytorch (Lightning)}\dotsepb\texttt{Slurm}\dotsepb\texttt{scikit-learn}\dotsepb\texttt{pytest}\dotsepb\texttt{gRPC}\dotsepb\texttt{Docker}}
 \entry
     {5/2021\,--\,7/2021}
     {Artificial Intelligence Analyst}
     {The Netherlands Cancer Institute}
     {I investigated Deep Learning-based methods for outcome prediction of Ductal Carcinoma in Situ (DCIS) from pathology whole-slide images (WSIs).\\
-    \texttt{Python}\slashsep\texttt{Git}\slashsep\texttt{Pytorch}\slashsep\texttt{Slurm}}
+    \texttt{Pytorch}\dotsepb\texttt{Slurm}\dotsepb\texttt{Docker}\dotsepb\texttt{Singularity}}
 \entry
     {11/2019\,--\,4/2021\\\footnotesize{internship}}
     {Research Intern}
     {The Netherlands Cancer Institute}
     {Researched and developed a computational pipeline for predicting outcome of DCIS from WSIs.\\
-    \texttt{Python}\slashsep\texttt{Git}\slashsep\texttt{Pytorch}\slashsep\texttt{Slurm}}
+    \texttt{Pytorch}\dotsepb\texttt{Slurm}\dotsepb\texttt{Docker}\dotsepb\texttt{Singularity}}
 \entry
     {6/2019\\\footnotesize{internship}}
     {Research Intern}
     {KPN}
     {NLP and Data Mining project in collaboration with the University of Amsterdam.\\
-    \texttt{Python}\slashsep\texttt{scikit-learn}}
+    \texttt{scikit-learn}}
 \entry
     {3/2018\,--\,6/2018}
     {Teaching Assistant}
@@ -88,7 +94,7 @@
     {Research Intern}
     {Universitair Medisch Centrum Groningen}
     {I analysed biometric signals to perform early detection of sepsis in ICU patients.\\
-    \texttt{Python}\slashsep\texttt{scikit-learn}}
+    \texttt{scikit-learn}}
 \end{entrylist}
 
 % EDUCATION
@@ -100,33 +106,35 @@
     {2018\,--\,2021}
     {MSc in Artificial Intelligence (Cum Laude)}
     {University of Amsterdam}
-    {I presented an abstract on my thesis \emph{Multiple-Instance Learning for Assessing Prognosis of Ductal Carcinoma In Situ} at the European Congress of Pathology of 2021. Follow-up research based on my work was \href{https://doi.org/10.1117/12.2612838}{accepted at SPIE 2022}.}
+    {I presented an abstract on my thesis \emph{Multiple-Instance Learning for Assessing Prognosis of Ductal Carcinoma In Situ} at the European Congress of Pathology of 2021. Follow-up research based on my work was \href{https://doi.org/10.1117/12.2612838}{accepted at SPIE 2022}.\\
+    \texttt{Python}}
 \entry
     {2015\,--\,2018}
     {BSc in Artificial Intelligence (Honours in Philosophy)}
     {University of Groningen}
-    {I presented a paper resulting from my thesis on \emph{Early Detection of Sepsis Induced Deterioration Using Machine Learning} at the BENELEARN2018 conference, and the paper was \href{https://doi.org/10.1007/978-3-030-31978-6_1}{published in the conference proceedings}.}
+    {I presented a paper resulting from my thesis on \emph{Early Detection of Sepsis Induced Deterioration Using Machine Learning} at the BENELEARN2018 conference, and the paper was \href{https://doi.org/10.1007/978-3-030-31978-6_1}{published in the conference proceedings}.\\
+    \texttt{Python}\dotsepb\texttt{C}\dotsepb\texttt{Matlab}\dotsepb\texttt{Java}}
 \end{entrylist}
 
 % MISC
 
-\begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{0.45\textwidth}
     \vspace{-\baselineskip}
     \cvsect{Soft Skills}\\
     I am organized, detail oriented, and strong at team building, communication, and presentation.
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.2\textwidth}
+\begin{minipage}[t]{0.225\textwidth}
     \vspace{-\baselineskip}
     \cvsect{Languages}\\
     \textbf{English} - C2\\
     \textbf{Italian} - C2
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.2\textwidth}
+\begin{minipage}[t]{0.225\textwidth}
     \vspace{-\baselineskip}
     \cvsect{Hobbies}\\
-    I love cooking, playing bass, and kung fu.
+    I love cooking, playing bass, sailing, and kung fu.
 \end{minipage}
 
 \end{document}
